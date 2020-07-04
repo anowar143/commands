@@ -10,7 +10,15 @@
 
 # git pull
 
-#### git commit -m "change commit"        #if u want change commit
+#### git add 'file name' or 'add .'
+#### git commit -m "change commit"   #if u want change commit
+#### git git push -u origin master
+
+
+##        or
+
+#### git add 'file name' or 'add .'
+#### git commit -m "preview commit"
 #### git pull origin master
 #### git push -u origin master
 
