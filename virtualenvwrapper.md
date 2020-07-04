@@ -3,6 +3,8 @@
 
 #### sudo apt-get install python3-pip
 
+#### sudo pip3 install virtualenv
+
 #### sudo pip3 install virtualenvwrapper
 
 #### mkdir ~/.virtualenvs
@@ -22,7 +24,8 @@
 
 #### export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 #### export WORKON_HOME=$HOME/.virtualenvs
-#### export PROJECT_HOME="/home/ma/Projects"
+#### export PROJECT_HOME="/home/username/Projects"
+#### export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 #### source /usr/local/bin/virtualenvwrapper.sh
 
 
