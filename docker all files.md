@@ -1,6 +1,6 @@
-#Step 1
+# Step 1
 
-###Dockerfile
+### Dockerfile
 
 ```
 FROM python:3.6-slim
@@ -31,7 +31,7 @@ EXPOSE 8000
 
 
 
-###docker-compose.ymal
+### docker-compose.ymal
 
 ```
 version: "3"
@@ -99,7 +99,7 @@ REDIS_HOST=redis
 
 
 
-###.editorconfig
+### .editorconfig
 
 #### http://editorconfig.org
 
