@@ -31,7 +31,7 @@ workon my_project
 
 
 
-#docker  
+# docker  
 
 ```
 sudo apt update
@@ -47,7 +47,7 @@ Reboot if still got error
 reboot
 ```
 
-#docker-compose
+# docker-compose
       
 ```
 sudo apt update
@@ -60,16 +60,16 @@ docker–compose –version
 
 ```
 
-#Start project
+# Start project
 
-##Step 1
+## Step 1
 
 ```
 workon my_project
 Install requirements txt
 pip install -r requirements.txt
 ```
-##Step 2
+## Step 2
 
 ```
 mkdir src
@@ -78,9 +78,9 @@ django-admin startproject name .
 ./manage.py runserver
 ```
 
-##Step 3 project run with docker
+## Step 3 project run with docker
 
-####create nesesary files
+#### create nesesary files
 
 ```
 .gitignore
@@ -91,22 +91,22 @@ docker-compose.yml
 requirements.txt
 
 ```
-##Step 4
+## Step 4
 
-####Add/Change in settings.py
+#### Add/Change in settings.py
 
 ```
 import os, SECRET_KET, DEBUG, DATABASES, ALLOWED HOST ['*'], 
 ```
-##Installation
+## Installation
 ```
 docker-compose up --build
 ```
-##check project
+## check project
 ```
 http://localhost:8099/
 ```
-##Run commands
+## Run commands
 ```
 docker-compose exec app bash
 cd src
@@ -115,7 +115,7 @@ cd src
 ```
 
 
-##Step 5 create custom user
+## Step 5 create custom user
 
 ```
 django-admin startapp user
