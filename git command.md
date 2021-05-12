@@ -1,26 +1,34 @@
+#First Commit
+
+##Run
+
+####git init
+####git add .
+####git config --global user.email "you@example.com"
+####git config --global user.name "Your Name"
+####git commit -m "first commit"
+####git remote add origin https://github.com/anowar143/django-food.git
+####git remote -v
+####git branch -M main
+####git push -u origin main
+####Username for 'https://github.com':      ""you@example.com""
+####Password for 'https://"you@example.com"@github.com':  "Password"
+
+
+
 # git push
 
-### git init
-### git add .
-### git commit -m "first commit"
-### git remote add origin <repository url>
-### git push -u origin master
-
+#### git add 'file name' or 'add .'
+#### git commit -m "change commit"   #if u want change commit
+#### git git push -u origin master/main
 
 
 # git pull
 
 #### git add 'file name' or 'add .'
-#### git commit -m "change commit"   #if u want change commit
-#### git git push -u origin master
-
-
-##        or
-
-#### git add 'file name' or 'add .'
 #### git commit -m "preview commit"
-#### git pull origin master
-#### git push -u origin master
+#### git pull origin master/main
+#### git push -u origin master/main
 
 
 
@@ -62,4 +70,5 @@
 #### git reset --hard HEAD^           # command it will only revert the top commit means the latest commit.
 
 #### git reset --soft HEAD^           # --soft option means it will reset the commit but don’t reset the content in that commit file.
+
 
