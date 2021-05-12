@@ -58,7 +58,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo chmod 755 -R .
 docker–compose –version
 
-
+```
 
 #Start project
 
@@ -68,7 +68,7 @@ docker–compose –version
 workon my_project
 Install requirements txt
 pip install -r requirements.txt
-
+```
 ##Step 2
 
 ```
@@ -90,8 +90,7 @@ docker-compose.yml
 .env
 requirements.txt
 
-
-
+```
 ##Step 4
 
 ####Add/Change in settings.py
