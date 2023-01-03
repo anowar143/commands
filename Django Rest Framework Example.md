@@ -39,9 +39,9 @@ INSTALLED_APPS = [
 from django.db import models
 
 class Corebd(models.Model):
-    created = models.DateTimeField(auto_now_add=True)
-    title = models.CharField(max_length=100, blank=True, default='')
-    Description = models.TextField(max_length=5000, blank=True, default='')
+    created = models.DateTimeField(auto_now_add=True, )
+    title = models.CharField(max_length=100, blank=False, )
+    Description = models.TextField(max_length=5000, blank=False, )
     
     class Meta:
         ordering = ['created']
