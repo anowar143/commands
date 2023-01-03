@@ -18,7 +18,7 @@ pip install djangorestframework==3.11.0
 #### Start Project
 ```
 django-admin startproject tutorial .
-python manage.py startapp corebd
+python3 manage.py startapp corebd
 ```
 #### Now add the corebd app and rest_framework to the INSTALLED_APPS config in our tutorial/settings.py file.
 ```
@@ -51,8 +51,8 @@ class Corebd(models.Model):
 ```
 #### Then create an initial migration file and sync the database for the first time.
 ```
-python manage.py makemigrations
-python manage.py migrate
+python3 manage.py makemigrations
+python3 manage.py migrate
 ```
 #### But first we need to update corebd/admin.py
 ```
@@ -112,7 +112,7 @@ urlpatterns = [
 ```
 #### Browsable API (Django Rest Framework ships with a browsable API that we can now use. Make sure the local server is running.)
 ```
-python manage.py runserver
+python3 manage.py runserver
 
 ```
 #### Navigate to the Corebd List endpoint at http://127.0.0.1:8000/corebd/.
