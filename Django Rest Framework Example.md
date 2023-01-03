@@ -99,7 +99,7 @@ urlpatterns = [
     path('', include('corebd.urls')), # new
 ]
 ```
-#### Then create a urls.py file with our corebd app.
+#### Then create a corebd/urls.py file
 ```
 from django.urls import path
 from snippets import views
