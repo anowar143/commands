@@ -40,7 +40,7 @@ ssh username@ip_address
 ip a
 ```
 
-![image](images/ssh1.webp)
+![image](Images/ssh1.webp)
 ---
 
 ##### As you can see from the output, the system IP address is 10.0.2.15.
