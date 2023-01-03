@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     'corebd', # new
 ]
 ```
-#### Create models
+#### Create models corebd/models.py
 ```
 from django.db import models
 
@@ -51,17 +51,104 @@ class Corebd(models.Model):
 ```
 #### Then create an initial migration file and sync the database for the first time.
 ```
-python manage.py makemigrations corebd
+python manage.py makemigrations
 python manage.py migrate
 ```
-#### But first we need to update snippets/admin.py
+#### But first we need to update corebd/admin.py
 ```
-# corebd/admin.py
 from django.contrib import admin
 from .models import Corebd
 
 admin.site.register(Corebd)
 ```
+#### Create a corebd/serializers.py file.
+```
+from rest_framework import serializers
+from .models import Corebd
+
+class CorebdSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Corebd
+        fields = ('id', 'title', 'Description')
+        
+
+```
+#### Edit the corebd/views.py file
+```
+from rest_framework import generics
+from .models import Corebd
+from .serializers import CorebdSerializer
+
+class CorebdList(generics.ListCreateAPIView):
+    queryset = Corebd.objects.all()
+    serializer_class = CorebdSerializer
+
+
+class CorebdDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Corebd.objects.all()
+    serializer_class = CorebdSerializer
+```
+#### The final step is to configure the tutorial/urls.py file 
+```
+from django.contrib import admin
+from django.urls import include, path # new
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('corebd.urls')), # new
+]
+```
+#### Then create a urls.py file with our corebd app.
+```
+from django.urls import path
+from snippets import views
+
+urlpatterns = [
+    path('corebd/', views.CorebdList.as_view()),
+    path('corebd/<int:pk>/', views.CorebdDetail.as_view()),
+]
+
+```
+#### Browsable API (Django Rest Framework ships with a browsable API that we can now use. Make sure the local server is running.)
+```
+python manage.py runserver
+
+```
+#### Navigate to the Corebd List endpoint at http://127.0.0.1:8000/corebd/.
+```
+
+```
+#### We can also go to the detail view for each Corebd. For example, the first Corebd is at 
+```
+
+```
+####
+```
+
+```
+#### 
+```
+
+```
+####
+```
+
+```
+#### 
+```
+
+```
+####
+```
+
+```
+
+
+
+
+
+
 #### Now create a superuser account for log in. Follow all the prompts for setting a username, email, and password. I've used admin, admin@gmail.com, and adminpass123.
 ```
 python manage.py createsuperuser
@@ -70,12 +157,15 @@ python manage.py createsuperuser
 ```
 python manage.py runserver
 ```
+#### Then open your browser http://127.0.0.1:8000/ to confirm everything is working.
 
 
 ![image](Images/drf1.png)
 ---
 
-####
+####  http://127.0.0.1:8000/admin/. Log in with your superuser account.
+
+
 ```
 
 ```
