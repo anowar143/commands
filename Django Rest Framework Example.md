@@ -72,8 +72,7 @@ python manage.py runserver
 ```
 
 
-![image](Images/django home page.png
-)
+![image](Images/django home page.png)
 ---
 
 ####
