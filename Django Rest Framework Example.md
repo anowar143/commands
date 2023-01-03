@@ -102,7 +102,7 @@ urlpatterns = [
 #### Then create a corebd/urls.py file
 ```
 from django.urls import path
-from snippets import views
+from corebd import views
 
 urlpatterns = [
     path('corebd/', views.CorebdList.as_view()),
