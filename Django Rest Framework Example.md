@@ -92,7 +92,7 @@ class CorebdDetail(generics.RetrieveUpdateDestroyAPIView):
 #### The final step is to configure the tutorial/urls.py file 
 ```
 from django.contrib import admin
-from django.urls import include, path # new
+from django.urls import path include, # new
 
 urlpatterns = [
     path('admin/', admin.site.urls),
