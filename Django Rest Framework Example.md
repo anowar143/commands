@@ -119,7 +119,7 @@ python3 manage.py runserver
 ```
 
 ```
-#### We can also go to the detail view for each Corebd. For example, the first Corebd is at 
+#### We can also go to the detail view for each Corebd at http://127.0.0.1:8000/corebd/id/.
 ```
 
 ```
