@@ -89,16 +89,6 @@ class CorebdDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Corebd.objects.all()
     serializer_class = CorebdSerializer
 ```
-#### The final step is to configure the tutorial/urls.py file 
-```
-from django.contrib import admin
-from django.urls import path include, # new
-
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('corebd.urls')), # new
-]
-```
 #### Then create a corebd/urls.py file
 ```
 from django.urls import path
@@ -109,6 +99,16 @@ urlpatterns = [
     path('corebd/<int:pk>/', views.CorebdDetail.as_view()),
 ]
 
+```
+#### The final step is to configure the tutorial/urls.py file 
+```
+from django.contrib import admin
+from django.urls import path include, # new
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('corebd.urls')), # new
+]
 ```
 #### Browsable API (Django Rest Framework ships with a browsable API that we can now use. Make sure the local server is running.)
 ```
