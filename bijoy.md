@@ -14,8 +14,9 @@ sudo apt install scim-m17n
 
 ```
 sudo nano /etc/X11/Xsession.d/90im-switch
-# add the flowing code
-
+```
+#### add the flowing code
+```
 export XMODIFIERS=”@im=SCIM”
 export XIM_PROGRAM=”scim -d”
 export GTK_IM_MODULE=”scim”
