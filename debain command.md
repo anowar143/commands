@@ -9,24 +9,21 @@ ctl+alt+t
 ## Permission root
 ```
 su root
-Password:
-
 nano /etc/sudoers
-
+```
+#### Add Second line bleow the (root ALL)
 # User privilege specification
+```
 root	ALL=(ALL:ALL) ALL
 ttbangla  ALL=(ALL:ALL) ALL   # Addd this line
-
+```
 usermod -aG sudo ttbangla #ttbangla is username
-
-exit
 
 ```
 
 ### Disable update Problem
+#### apt-cdrom error
 ```
-apt-cdrom error
-
 nano /etc/apt/sources.list
 ```
 
@@ -35,7 +32,6 @@ nano /etc/apt/sources.list
 deb cdrom:[Debian GNU/Linux 12.2.0 _Bookworm_ - Official amd64 DVD Binary-1 wi>
 ```
 
-```
 ###  Minimize window option show
 
 ```
