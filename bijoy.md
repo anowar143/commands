@@ -1,4 +1,35 @@
-# Install Bijoy Ekushe 
+# Two way Install bangla keyboard
+
+### One Unijoy Second Bijoy They are same
+#### Unijoy is best for linux, ok I,m going to show 2 method install Unijoy or Bijoy 
+
+
+## Method 1 Install Unijoy
+
+
+```
+sudo apt install m17n-db
+sudo apt install scim-m17n
+```
+
+```
+sudo nano /etc/X11/Xsession.d/90im-switch
+# add the flowing code
+
+export XMODIFIERS=”@im=SCIM”
+export XIM_PROGRAM=”scim -d”
+export GTK_IM_MODULE=”scim”
+export QT_IM_MODULE=”scim”
+
+```
+#### Restart the system
+##### Go to Setting/Keyboard/Input/Bangla/Bangla(bn-unijoy(m17)) Add
+
+##### এখন যেকোন প্রোগ্রাম থেকেই ctrl + space bar চাপ দিয়ে বাংলা লেখা শুরু করতে পারবেন। লেখার শুরুতেই টাস্কবারে কি-বোর্ড এর মত একটি আইকন দেখতে পাবেন যেখানে Bangla(bn-unijoy(m17)) কথাটি লেখা আছে। এটিতে ক্লিক করেও কি-বোর্ড পরিবর্তন করতে পারবেন।
+
+
+
+## Method  2 Install Bijoy
 ### Step 1
 
 ```
