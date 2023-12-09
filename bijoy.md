@@ -20,10 +20,11 @@ sudo chmod 777 /var/lib/dpkg/info/m17n-db.list
 
 ### Step 3
 
-#### gedit /var/lib/dpkg/info/m17n-db.list
+#### nano /var/lib/dpkg/info/m17n-db.list
 #### and put the following code 
 
-```/usr/share/m17n/icons/bn-bijoyClassic.png
+```
+/usr/share/m17n/icons/bn-bijoyClassic.png
 /usr/share/m17n/icons/bn-bijoyUniconde.png
 /usr/share/m17n/bn-bijoyClassic.mim
 /usr/share/m17n/bn-bijoyUniconde.mim
