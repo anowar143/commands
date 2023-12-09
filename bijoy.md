@@ -23,6 +23,8 @@ export GTK_IM_MODULE=”scim”
 export QT_IM_MODULE=”scim”
 
 ```
+##### Save&exit
+
 #### Restart the system
 ##### Go to Setting/Keyboard/Input/Bangla/Bangla(bn-unijoy(m17)) Add
 
