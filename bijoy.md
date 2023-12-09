@@ -36,7 +36,8 @@ sudo chmod 777 /var/lib/dpkg/info/m17n-db.list
 #### Ubuntu : go to "Startup Applications" and open it.
 #### In the pop box Click on "Add" and fill the empty according to the below.
 
-```Name: IBus Daemon
+```
+Name: IBus Daemon
 Command:/usr/bin/ibus-daemon -d
 Comment: Start IBus daemon when Gnome starts
 Restart your System
@@ -44,13 +45,15 @@ Restart your System
 
 ### Step 5
 
-```cd ~/Download unzip folder/
+```
+cd ~/Download unzip folder/
 install SutonnyMJ-Bold.ttf, SutonnyMJ-Bolditalic.ttf, SutonnyMJ-Italic.ttf, SutonnyMJ-Regular.ttf
 ```
 
 ### Step 6
 
-```Setting > Region & Language > Input Sources
+```
+Setting > Region & Language > Input Sources
 +  -  here click to '+'  search Bangla/bijoyUnicode(m17n)  to add
 +  -  here click to '+'  search Bangla/bijoyClassic(m17n)  to add
 ```
