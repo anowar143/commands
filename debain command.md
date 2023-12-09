@@ -28,11 +28,12 @@ exit
 apt-cdrom error
 
 nano /etc/apt/sources.list
+```
 
-add #commented cdrom line
-
+#### add #commented cdrom line
+```
 deb cdrom:[Debian GNU/Linux 12.2.0 _Bookworm_ - Official amd64 DVD Binary-1 wi>
-
+```
 
 ```
 ###  Minimize window option show
@@ -50,7 +51,7 @@ Found the problem that was causing this issue. I removed FreeSansand FreeSerif f
 ```
 #### Solution:
 
-####install required fonts
+#### install required fonts
 
 ```
 sudo apt-get install fonts-noto-core
@@ -81,14 +82,14 @@ su -
 apt -y install task-bengali
  
 localectl
- 
-nano /etc/locale.gen
+
  
 ```
  #### #comment out
  
 ```
- bn_Bn.UTF-8
+nano /etc/locale.gen
+bn_Bn.UTF-8
 
 save&exit
  
