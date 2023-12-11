@@ -77,7 +77,7 @@ sudo chmod 777 /var/lib/dpkg/info/m17n-db.list
 ### Step 3
 
 #### nano /var/lib/dpkg/info/m17n-db.list
-#### and put the following code 
+##### and put the following code 
 
 ```
 /usr/share/m17n/icons/bn-bijoyClassic.png
@@ -90,7 +90,7 @@ sudo chmod 777 /var/lib/dpkg/info/m17n-db.list
 ### Step 4
 
 #### Ubuntu : go to "Startup Applications" and open it.
-#### In the pop box Click on "Add" and fill the empty according to the below.
+##### In the pop box Click on "Add" and fill the empty according to the below.
 
 ```
 Name: IBus Daemon
