@@ -28,7 +28,7 @@ Update: Ubuntu 20.04 LTS
     Open “Settings“, then,
     Click “Region & Language“
     Click “+” sign
-    Click “three dot“, then “Other” and then Click “Bengali (unijoy (m17n))“
+    Click “three dot“, then “Other” and then Click“ “ then Bangla“ “Bengali (unijoy (m17n))“
     Finally Click “Add“
 
 Use [super] + [space] to change keyboard layout.
