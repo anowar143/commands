@@ -34,18 +34,10 @@ Update: Ubuntu 20.04 LTS
 Use [super] + [space] to change keyboard layout.
 ```
 
-#### add the flowing code
-```
-export XMODIFIERS=”@im=SCIM”
-export XIM_PROGRAM=”scim -d”
-export GTK_IM_MODULE=”scim”
-export QT_IM_MODULE=”scim”
-
-```
-##### Save&exit
-
 #### Restart the system
+
 ##### Go to Setting/Keyboard/Input/Bangla/Bangla(bn-unijoy(m17)) Add
+
 
 ##### এখন যেকোন প্রোগ্রাম থেকেই ctrl + space bar চাপ দিয়ে বাংলা লেখা শুরু করতে পারবেন। লেখার শুরুতেই টাস্কবারে কি-বোর্ড এর মত একটি আইকন দেখতে পাবেন যেখানে Bangla(bn-unijoy(m17)) কথাটি লেখা আছে। এটিতে ক্লিক করেও কি-বোর্ড পরিবর্তন করতে পারবেন।
 
