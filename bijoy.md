@@ -5,16 +5,35 @@
 
 
 ## Method 1 Install Unijoy
-
-
-```
-sudo apt install m17n-db
-sudo apt install scim-m17n
-```
+##### In Terminal ([Ctrl] + [Alt] + T) run following command:
 
 ```
-sudo nano /etc/X11/Xsession.d/90im-switch
+sudo apt install ibus-m17n m17n-db ibus-gtk
 ```
+##### Check if Unijoy is installed using the below command:
+
+```
+sudo dpkg -L m17n-db | grep unijoy
+```
+Now type and enter the following command:
+
+```
+ibus-daemon -xdr
+```
+
+#####
+Update: Ubuntu 20.04 LTS
+
+```
+    Open “Settings“, then,
+    Click “Region & Language“
+    Click “+” sign
+    Click “three dot“, then “Other” and then Click “Bengali (unijoy (m17n))“
+    Finally Click “Add“
+
+Use [super] + [space] to change keyboard layout.
+```
+
 #### add the flowing code
 ```
 export XMODIFIERS=”@im=SCIM”
