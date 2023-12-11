@@ -1,7 +1,7 @@
 # Two way Install bangla keyboard
 
 ### One Unijoy Second Bijoy They are same
-#### Unijoy is best for linux, ok I,m going to show 2 method install Unijoy or Bijoy 
+##### Unijoy is best for linux, ok I,m going to show 2 method install Unijoy or Bijoy 
 
 
 ## Method 1 Install Unijoy
