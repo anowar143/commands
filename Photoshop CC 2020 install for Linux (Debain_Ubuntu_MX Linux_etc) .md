@@ -55,7 +55,7 @@ make
 ./Photoshop2020
 ```
 
-#### After donlowad type: 2 for and install Photoshop:
+#### After donlowad complited (Enter: 2 for install Photoshop:)
 
 ```bash
 1. Check if your computer meets the reuirments to run Photoshop
