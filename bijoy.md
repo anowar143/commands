@@ -59,8 +59,10 @@ sudo chmod 777 /usr/share/m17n/icons/
 
 
 ### Step 2
+
+#### Open Terminal in Unziped folder then type following command:
+
 ```
-cd ~/Download/Bijoy Linux
 mv bn-bijoyClassic.mim /usr/share/m17n/
 mv bn-bijoyUnicode.mim /usr/share/m17n/
 mv bn-bijoyClassic.png /usr/share/m17n/icons/
