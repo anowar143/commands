@@ -53,9 +53,14 @@ Use [super] + [space] to change keyboard layout.
 sudo apt-get install ibus-m17n
 sudo chmod 777 /usr/share/m17n/
 sudo chmod 777 /usr/share/m17n/icons/
-Download Bijoy Ekushe.zip and unzip file
-cd ~/Download unzip folder/ 
 ```
+### Download link
+##### https://drive.google.com/file/d/1mWaUlA1AH5LXsTxv553z8UK9hIS-UDTF/edit
+#### Then Unzip folder
+```
+cd ~/Download/Bijoy Linux
+```
+
 ### Step 2
 ```
 mv bn-bijoyClassic.mim /usr/share/m17n/
