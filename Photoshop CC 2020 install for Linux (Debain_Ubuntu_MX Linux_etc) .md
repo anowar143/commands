@@ -91,7 +91,7 @@ During the installer you will see for a moment that Windows 7 is selected by def
 If you have a 4k monitor or open Photoshop and it looks small, in the same place go to the Graphics tab and increase the resolution between 216 and 240 ppp.Once all this is done apply the changes.Photoshop may sometimes start with a black screen, just Create a new file or just drag in some photo.
 Before starting any project try to Save the file first. In case it doesn't let you do the following:
 
-## Very Very Important things for some linux distro
+## ⚠️ Very Very Important things for some linux distro
 
 #### After Completed Installation if not work photoshop  "clone stamp tool"  to define source point by click  "atl+mouse_left"   you need to change "window manager tweaks" behover on your linux settings, because window behover shortcut override to photoshop Atl keyword.
 
