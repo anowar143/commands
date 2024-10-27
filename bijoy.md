@@ -54,15 +54,13 @@ sudo apt-get install ibus-m17n
 sudo chmod 777 /usr/share/m17n/
 sudo chmod 777 /usr/share/m17n/icons/
 ```
-### Download link
+### Download & Unzip folder
 ##### https://drive.google.com/file/d/1mWaUlA1AH5LXsTxv553z8UK9hIS-UDTF/edit
-#### Then Unzip folder
-```
-cd ~/Download/Bijoy Linux
-```
+
 
 ### Step 2
 ```
+cd ~/Download/Bijoy Linux
 mv bn-bijoyClassic.mim /usr/share/m17n/
 mv bn-bijoyUnicode.mim /usr/share/m17n/
 mv bn-bijoyClassic.png /usr/share/m17n/icons/
