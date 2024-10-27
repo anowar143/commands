@@ -29,10 +29,10 @@ If you are new in Linux and don't know some commands, you can watch this video (
 ## Installation steps:
 
 ```bash
-mkdir Poroject
+mkdir Project
 ```
 ```bash
-cd Poroject
+cd Project
 ```
 
 ```bash
