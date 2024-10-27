@@ -97,7 +97,7 @@ Restart your System
 ```
 
 ### Step 5
-#### Go to Unziped folder and install following files manualy by click o them one by one
+#### Go to Unziped folder and install following files manualy by click on them one by one
 ```
 install SutonnyMJ-Bold.ttf, SutonnyMJ-Bolditalic.ttf, SutonnyMJ-Italic.ttf, SutonnyMJ-Regular.ttf
 ```
