@@ -93,8 +93,9 @@ sudo chmod 777 /var/lib/dpkg/info/m17n-db.list
 Name: IBus Daemon
 Command:/usr/bin/ibus-daemon -d
 Comment: Start IBus daemon when Gnome starts
-Restart your System
+
 ```
+##### Restart your System
 
 ### Step 5
 #### Go to Unziped folder and install following files manualy by click on them one by one
