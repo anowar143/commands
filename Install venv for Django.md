@@ -81,6 +81,8 @@ my_django_project/
 Run:
 
 ```bash
+env\Scripts\activate
+or
 .\env\Scripts\activate
 ```
 
