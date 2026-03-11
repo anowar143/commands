@@ -17,9 +17,10 @@ Run the following command to see available Linux distributions:
 
 ```powershell
 wsl --list --online
-Install Ubuntu 24.04
+```
+### Install Ubuntu 24.04
 
-Run the command below:
+#### Run the command below:
 
 wsl --install -d Ubuntu-24.04
 
@@ -118,13 +119,3 @@ Official Microsoft WSL Documentation
 
 Ubuntu Documentation
 
-
-✅ This is **clean GitHub documentation style** used in many repositories.
-
-If you want, I can also show you **5 advanced GitHub README tricks** like:
-
-- Shields **badges**
-- **Collapsible sections**
-- **Copy button code blocks**
-- **Command tabs**
-- **Professional documentation layout** (used by big open-source projects).
