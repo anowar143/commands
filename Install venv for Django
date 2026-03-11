@@ -1,0 +1,43 @@
+@echo off
+SET /P project_name="Enter your Project Name: "
+
+echo.
+echo 🚀 Step 1: Creating Project Folder...
+mkdir %project_name%
+cd %project_name%
+
+echo.
+echo 📦 Step 2: Creating Virtual Environment (env)...
+python -m venv env
+
+echo.
+echo 🔌 Step 3: Activating Environment and Upgrading Pip...
+:: We use call to execute the activation and stay in the script
+call .\env\Scripts\activate
+
+python -m pip install --upgrade pip
+
+echo.
+echo 🛠️ Step 4: Installing Django and DRF...
+pip install django djangorestframework
+
+echo.
+echo 📝 Step 5: Freezing Requirements...
+pip freeze > requirements.txt
+
+echo.
+echo 🏗️ Step 6: Starting Django Project...
+django-admin startproject config .
+
+echo.
+echo ✅ Setup Complete! 
+echo --------------------------------------------------
+echo Project: %project_name%
+echo To start your server later, run:
+echo cd %project_name% 
+echo .\env\Scripts\activate
+echo python manage.py runserver
+echo --------------------------------------------------
+echo.
+
+pause
